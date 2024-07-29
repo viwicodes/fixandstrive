@@ -375,16 +375,15 @@
   background: var(--yellow);
 }
 
-.feature-item-button{
+.feature-item-button {
   background: var(--yellow);
-  color: var(--dark)
+  color: var(--dark);
 }
 
 .feature .feature-item:hover > .feature-item-button {
   background: var(--dark);
   color: white;
 }
-
 
 .feature-item-heading {
   color: white;
@@ -860,11 +859,11 @@
 }
 
 .footer .footer-item .footer-btn a:hover {
-  background: var(--bs-white);
+  background: var(--yellow);
 }
 
 .footer .footer-item .footer-btn a:hover i {
-  color: var(--bs-primary);
+  color: var(--yellow);
 }
 
 .footer .footer-item .footer-instagram {
@@ -900,11 +899,12 @@
 
 .footer .footer-item .footer-btn a {
   background: var(--bs-light);
-  color: var(--bs-primary);
+  color: var(--dark);
 }
 
 .footer .footer-item .footer-btn a:hover {
-  background: var(--bs-primary);
+  background: var(--yellow);
+  color: var(--dark);
 }
 
 .footer .footer-item .footer-btn a:hover i {
