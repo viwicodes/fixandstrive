@@ -292,7 +292,10 @@
                 Send us your message and our team at Strive and Fix Technical
                 Services LLC will get back to you promptly. .
               </p>
-              <form>
+              <form
+                action="https://formsubmit.co/striveandfixts@gmail.com"
+                method="POST"
+              >
                 <div class="row g-3">
                   <div class="col-lg-12 col-xl-6">
                     <div class="form-floating">
@@ -300,6 +303,7 @@
                         type="text"
                         class="form-control border-0"
                         id="name"
+                        name="username"
                         placeholder="Your Name"
                       />
                       <label for="name">Your Name</label>
@@ -311,6 +315,7 @@
                         type="email"
                         class="form-control border-0"
                         id="email"
+                        name="email"
                         placeholder="Your Email"
                       />
                       <label for="email">Your Email</label>
@@ -322,6 +327,7 @@
                         type="phone"
                         class="form-control border-0"
                         id="phone"
+                        name="phone"
                         placeholder="Phone"
                       />
                       <label for="phone">Your Phone</label>
@@ -333,6 +339,7 @@
                         type="text"
                         class="form-control border-0"
                         id="project"
+                        name="project"
                         placeholder="Project"
                       />
                       <label for="project">Your Project</label>
@@ -344,6 +351,7 @@
                         type="text"
                         class="form-control border-0"
                         id="subject"
+                        name="subject"
                         placeholder="Subject"
                       />
                       <label for="subject">Subject</label>
@@ -355,6 +363,7 @@
                         class="form-control border-0"
                         placeholder="Leave a message here"
                         id="message"
+                        name="message"
                         style="height: 120px"
                       ></textarea>
                       <label for="message">Message</label>
@@ -363,10 +372,11 @@
                   <div class="col-12">
                     <button
                       style="background-color: #ffde59"
+                      type="submit"
                       class="btn w-100 py-3"
                     >
                       Send Message
-                    </button>
+                  </button>
                   </div>
                 </div>
               </form>
